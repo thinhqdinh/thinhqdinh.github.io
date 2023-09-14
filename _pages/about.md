@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Researcher @University of Information Technology (UIT), a member of Vietnam National University Ho Chi Minh City
 
 profile:
   align: right
@@ -18,9 +18,10 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Thinh Dinh obtained a BEng in Electrical and Electronics (specializing in Telecommunications) from Ho Chi Minh City University of Technology (Vietnamese: Đại học Bách Khoa Tp Hồ Chí Minh). He then got his PhD degree under the supervision of [Prof. Tony Quek](https://people.sutd.edu.sg/~tonyquek/) at Singapore University of Technology and Design (SUTD). He was a visiting student at University of Toronto under the supervision of [Prof. Ben Liang](https://www.comm.utoronto.ca/~liang/). He received the IEEE ComSoc Stephen O. Rice Prize in 2020, Best Paper Award of IEEE ATC 2021 for his researches in Mobile Edge Computing (MEC).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently, he leads the Intelligent Network and Decision System Group, a research group under Information System Lab @UIT. His current research interests include:
+- Applied Quantum Computing in Networks
+- Applied Machine Learning in Networks, especially Satellite Networks
+- Edge/Cloud Services
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
