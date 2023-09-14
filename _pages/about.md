@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher @University of Information Technology (UIT),
-a member of Vietnam National University Ho Chi Minh City
+subtitle: Researcher @University of Information Technology (UIT), Vietnam National University Ho Chi Minh City
 
 profile:
   align: right
