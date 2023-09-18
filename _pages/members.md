@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: /Group Members/
+title: Group Members
+description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+nav: true
+nav_order: 3
+---
+
+<strong>Group Lead</strong>
+Thinh Q. Dinh
+
+<strong>Members</strong>
+Nguyen Truong Thinh
+Nguyen Minh Tam
+Nguyen Ngoc Hoan
