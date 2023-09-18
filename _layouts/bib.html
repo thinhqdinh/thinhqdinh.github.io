@@ -24,6 +24,9 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
+        {%- if entry.secondary_badge -%}
+          <span class="badge secondary_badge">{{entry.secondary_badge}}</span>
+        {%- endif -%}
         </div>
 
         <!-- Entry bib key -->

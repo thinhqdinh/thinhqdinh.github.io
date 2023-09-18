@@ -372,6 +372,11 @@ footer.sticky-bottom {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
+
+      .secondary_badge {
+        color: var(--global-card-bg-color) !important;
+        border: 1px solid var(--global-theme-color);
+      }
     }
   }
 }
