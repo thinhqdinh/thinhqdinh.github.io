@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Researcher @University of Information Technology (UIT), Vietnam National University Ho Chi Minh City
 
