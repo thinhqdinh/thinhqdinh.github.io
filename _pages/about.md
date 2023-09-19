@@ -20,9 +20,9 @@ social: true  # includes social icons at the bottom of the page
 Thinh Dinh obtained a BEng in Electrical and Electronics (specializing in Telecommunications) from Ho Chi Minh City University of Technology (Vietnamese: Đại học Bách Khoa Tp Hồ Chí Minh). He then got his PhD degree under the supervision of [Prof. Tony Quek](https://people.sutd.edu.sg/~tonyquek/) at Singapore University of Technology and Design (SUTD). He was a visiting student at University of Toronto under the supervision of [Prof. Ben Liang](https://www.comm.utoronto.ca/~liang/). He received multiple research awards in the topics of Edge Computing.
 
 Currently, he leads the <strong>Intelligent Computing Systems Group</strong>, a research group under Information System Lab @UIT. His current research interests include:
-- Applied Quantum Computing/Quantum Machine Learning in Networks
-- Edge/Cloud Services
-- Quantum Softwares
+- Scalable Quantum Computing
+- Edge/Cloud Resource Management
+- Quantum Cloud Services
 
 <strong>Awards</strong>
 - IEEE 2020 ComSoc Stephen O. Rice Prize (Best paper award of IEEE Transactions on Communications (top 3 in the field of Wireless Communications) over the period of 2017-2019)

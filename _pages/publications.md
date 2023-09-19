@@ -8,16 +8,16 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-<h1>TOPIC 1</h1>
+<h1>Scalable Quantum Computing</h1>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 1]%}
 </div>
 
 <div class="publications">
-<h1>TOPIC 2</h1>
+<h1>Edge/Cloud Resource Management</h1>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 2]%}
 </div>
 
 <div class="publications">
-<h1>TOPIC 3</h1>
+<h1>Quantum Cloud Service</h1>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 3]%}
 </div>
