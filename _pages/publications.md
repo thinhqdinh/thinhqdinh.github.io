@@ -21,8 +21,3 @@ nav_order: 1
 <h1>TOPIC 3</h1>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 3]%}
 </div>
-
-<div class="publications">
-<h1>TOPIC 4</h1>
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 4]%}
-</div>
