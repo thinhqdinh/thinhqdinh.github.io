@@ -1,9 +1,11 @@
 "TCOM":
-  url: https://www.comsoc.org/publications/journals/ieee-tcom
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26
 
 "TMC":
-  url: https://journals.aps.org/
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755
 
 "ICC":
-  url: https://journals.aps.org/
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000104/all-proceedings
 
+"TWC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7693
