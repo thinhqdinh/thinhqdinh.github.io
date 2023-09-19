@@ -18,6 +18,6 @@ nav_order: 1
 </div>
 
 <div class="publications">
-<h1>Quantum Cloud Services</h1>
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=Quantum Cloud Services]%}
+<h1>Network Inteligence</h1>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=Network Inteligence]%}
 </div>

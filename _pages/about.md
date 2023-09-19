@@ -22,7 +22,7 @@ Thinh Dinh obtained a BEng in Electrical and Electronics (specializing in Teleco
 Currently, he leads the <strong>Intelligent Computing Systems Group</strong>, a research group under Information System Lab @UIT. His current research interests include:
 - Scalable Quantum Computing
 - Edge/Cloud Resource Management
-- Quantum Cloud Services
+- Network Inteligence
 
 <strong>Awards</strong>
 - IEEE 2020 ComSoc Stephen O. Rice Prize (Best paper award of IEEE Transactions on Communications (top 3 in the field of Wireless Communications) over the period of 2017-2019)
