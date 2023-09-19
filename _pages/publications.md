@@ -8,7 +8,21 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
+<h1>TOPIC 1</h1>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 1]%}
+</div>
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+<div class="publications">
+<h1>TOPIC 2</h1>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 2]%}
+</div>
 
+<div class="publications">
+<h1>TOPIC 3</h1>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 3]%}
+</div>
+
+<div class="publications">
+<h1>TOPIC 4</h1>
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[topic=TOPIC 4]%}
 </div>
