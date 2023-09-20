@@ -5,4 +5,4 @@ inline: True
 related_posts: false
 ---
 
-I will present the talk ("Hamiltonian Reduction for Scalable Quantum Computing Problems in SatCom")[https://www.youtube.com/watch?v=7Qu8EzeW3fM] at QuCS lecture series, cohosted by MIT and University of Notre Dame.
+I will present the talk ["Hamiltonian Reduction for Scalable Quantum Computing Problems in SatCom"](https://www.youtube.com/watch?v=7Qu8EzeW3fM) at QuCS lecture series, cohosted by MIT and University of Notre Dame.
