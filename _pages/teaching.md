@@ -11,3 +11,7 @@ nav_order: 5
 
 <strong>Undergrad Courses</strong>
 - Data Mining
+- Machine Learning
+- Probability and Statistics
+- Operating Systems
+- Computer Networks
