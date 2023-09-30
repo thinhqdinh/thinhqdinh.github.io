@@ -203,6 +203,9 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+# Allow future posts to be rendered
+future: true
+
 # Includes & excludes
 include: ['_pages']
 exclude:
