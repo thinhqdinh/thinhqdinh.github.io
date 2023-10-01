@@ -59,7 +59,8 @@
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
   </body>
-  <a href="https://worldflagcounter.com/details/iEd">
-    <img style = "display: block; margin-left: auto; margin-right: auto;" src="https://worldflagcounter.com/iEd/" alt="Flag Counter">
+  <a>
+    <img id = "flagcounter" style = "display: block; margin-left: auto; margin-right: auto;" alt="Flag Counter">
   </a>
+    {% include scripts/avoid_flag_counter_caching.html %}
 </html>
