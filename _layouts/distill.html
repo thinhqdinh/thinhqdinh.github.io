@@ -98,6 +98,26 @@
 
       <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
+      <!-- Previous and Next Post Links -->
+      <div class="post-navigation">
+        {%- assign current_post_index = site.posts | reversed | index: page -%}
+        {%- assign previous_post_index = current_post_index | minus: 1 -%}
+        {%- assign next_post_index = current_post_index | plus: 1 -%}
+
+        {%- if previous_post_index >= 0 -%}
+          <div class="previous-post">
+            <a href="{{ site.posts[previous_post_index].url }}">Previous Post: {{ site.posts[previous_post_index].title }}</a>
+          </div>
+        {%- endif -%}
+
+        {%- if next_post_index < site.posts.size -%}
+          <div class="next-post">
+            <a href="{{ site.posts[next_post_index].url }}">Next Post: {{ site.posts[next_post_index].title }}</a>
+          </div>
+        {%- endif -%}
+      </div>
+      <!-- End Previous and Next Post Links -->
+
       {%- if site.disqus_shortname and page.disqus_comments -%}
         {% include disqus.html %}
       {%- endif %}
@@ -113,5 +133,9 @@
     {% include scripts/bootstrap.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
+    <a>
+      <img id = "flagcounter" style = "display: block; margin-left: auto; margin-right: auto;" alt="Flag Counter">
+    </a>
+      {% include scripts/avoid_flag_counter_caching.html %}
   </body>
 </html>
