@@ -101,6 +101,27 @@
       {%- if page.related_posts == null or page.related_posts -%}
         {% include related_posts.html %}
       {%- endif %}
+      {% if page.previous or page.next %}
+      <br>
+      <br>
+      <nav style="max-width: {{ site.max_width }}; margin: 0 auto;">
+        {% if page.previous %}
+          <a href="{{ base_path }}{{ page.previous.url }}" class="d-pagination" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+        {% else %}
+          <a href="#" class="d-pagination--disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+        {% endif %}
+        {% if page.next %}
+          <a href="{{ base_path }}{{ page.next.url }}" class="d-pagination" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+        {% else %}
+          <a href="#" class="d-pagination--disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+        {% endif %}
+      </nav>
+      <br style="clear: both;">
+      <br>
+
+    {% endif %}
+
+
       {%- endif %}
       {%- if site.disqus_shortname and page.disqus_comments -%}
         {% include disqus.html %}
