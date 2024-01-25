@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Thinh Dinh obtained a BEng in Electrical and Electronics (specializing in Telecommunications) from Ho Chi Minh City University of Technology (Vietnamese: Đại học Bách Khoa Tp Hồ Chí Minh). He then got his PhD degree under the supervision of [Prof. Tony Quek](https://people.sutd.edu.sg/~tonyquek/) at Singapore University of Technology and Design (SUTD). He was a visiting student at University of Toronto under the supervision of [Prof. Ben Liang](https://www.comm.utoronto.ca/~liang/). He received multiple research awards in the topics of Edge Computing.
 
-Currently, he leads the <strong>Intelligent Computing Systems Group</strong>, a research group under Information System Lab @UIT. His current research interests include:
+Currently, he is a Research Fellow I at SUTD. His current research interests include:
 - Scalable Quantum Computing
 - Edge/Cloud Resource Management
 - Network Inteligence
